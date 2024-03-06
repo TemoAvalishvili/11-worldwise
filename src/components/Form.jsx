@@ -13,7 +13,6 @@ import Message from "./Message";
 import Spinner from "./Spinner";
 import { useCities } from "../contexts/CitiesContext";
 import { useNavigate } from "react-router-dom";
-import ReactCountryFlag from "react-country-flag";
 
 export function convertToEmoji(countryCode) {
   const codePoints = countryCode
