@@ -11,12 +11,10 @@ function reducer(state, action) {
   switch (action.type) {
     case "login":
       return { ...state, user: action.payload, isAuthenticated: true };
-
     case "logout":
       return { ...state, user: null, isAuthenticated: false };
-
     default:
-      throw new Error("Unknown Action");
+      throw new Error("Unknown action");
   }
 }
 
@@ -41,6 +39,7 @@ function AuthProvider({ children }) {
   function logout() {
     dispatch({ type: "logout" });
   }
+
   return (
     <AuthContext.Provider value={{ user, isAuthenticated, login, logout }}>
       {children}
