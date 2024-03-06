@@ -35,6 +35,30 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Horcajo de Santiago",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-03-06T01:09:41.792Z",
+      "notes": "test",
+      "position": {
+        "lat": "39.825413103424786",
+        "lng": "-2.96630859375"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Olmillos de Castro",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-03-06T01:15:14.558Z",
+      "notes": "teasd",
+      "position": {
+        "lat": "41.73852846935917",
+        "lng": "-5.976562500000001"
+      },
+      "id": 98443199
     }
   ]
 }
