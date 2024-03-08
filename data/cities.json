@@ -23,6 +23,18 @@
         "lng": "44.80224609375001"
       },
       "id": 73930386
+    },
+    {
+      "cityName": "Nicosia",
+      "country": "Cyprus",
+      "emoji": "🇨🇾",
+      "date": "2024-03-07T21:56:27.570Z",
+      "notes": "shota iyo ak da shavtraka qalebi tyna",
+      "position": {
+        "lat": "35.17380831799959",
+        "lng": "33.40118408203126"
+      },
+      "id": 73930387
     }
   ]
 }
